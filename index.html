@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" id="" placeholder="nombre">
+                <input type="email" name="correo" id="" placeholder="correo">
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
+                    
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
+                </div>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepte los Terminos y Condiciones</label>
+                </div>
+
+                <ul class="error" id="error"></ul>
+            </div>
+
+            <input type="submit" class="btn" value="Registrate">
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
